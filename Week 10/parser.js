@@ -7,6 +7,7 @@ let currentAttribute = null
 let stack = [{type: 'document', children: []}]
 let currentTextNode = null
 
+
 let rules = []
 function addCSSRules(text) {
     var ast = css.parse(text)

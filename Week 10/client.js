@@ -68,6 +68,7 @@ class ResponseParser {
     this.bodyParser = null
   }
 
+  
   get isFinished() {
     return this.bodyParser && this.bodyParser.isFinished;
   }

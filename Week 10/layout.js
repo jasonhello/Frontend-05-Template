@@ -1,3 +1,4 @@
+
 function getStyle(element) {
     if(!element.style) {
         element.style = {}

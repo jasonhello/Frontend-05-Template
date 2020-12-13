@@ -1,5 +1,6 @@
 const images = require('images');
 
+
 function render(viewport, element) {
     if (element.style) {
         const img = images(element.style.width, element.style.height);
